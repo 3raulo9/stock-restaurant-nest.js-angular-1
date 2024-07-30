@@ -1,0 +1,44 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+header {
+  width: 100%;
+  background-color: #3f51b5;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+main {
+  width: 100%;
+  max-width: 1200px;
+}
+
+.search-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+}
+
+table {
+  width: 100%;
+}
+
+button {
+  margin-right: 5px;
+}
+
+.no-products {
+  text-align: center;
+  padding: 20px;
+  color: gray;
+}

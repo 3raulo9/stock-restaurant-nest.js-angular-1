@@ -35,6 +35,87 @@
       "createdAt": "2024-07-31T20:08:13.005Z",
       "updatedAt": "2024-07-31T20:08:13.005Z",
       "isDeleted": true
+    },
+    {
+      "name": "h",
+      "quantity": 2,
+      "serialNumber": "2",
+      "id": 5,
+      "createdAt": "2024-07-31T20:11:49.559Z",
+      "updatedAt": "2024-07-31T20:11:49.559Z",
+      "isDeleted": true
+    },
+    {
+      "name": "h",
+      "quantity": 2,
+      "serialNumber": "g",
+      "id": 6,
+      "createdAt": "2024-07-31T20:11:52.389Z",
+      "updatedAt": "2024-07-31T20:11:52.389Z",
+      "isDeleted": true
+    },
+    {
+      "name": "h",
+      "quantity": 2,
+      "serialNumber": "g",
+      "id": 7,
+      "createdAt": "2024-07-31T20:11:55.057Z",
+      "updatedAt": "2024-07-31T20:11:55.057Z",
+      "isDeleted": true
+    },
+    {
+      "name": "g",
+      "quantity": 2,
+      "serialNumber": "g",
+      "id": 8,
+      "createdAt": "2024-07-31T20:11:59.062Z",
+      "updatedAt": "2024-07-31T20:11:59.062Z",
+      "isDeleted": true
+    },
+    {
+      "name": "teriaki",
+      "quantity": 7,
+      "serialNumber": "2568397",
+      "id": 9,
+      "createdAt": "2024-07-31T20:17:19.672Z",
+      "updatedAt": "2024-07-31T20:17:19.672Z",
+      "isDeleted": false
+    },
+    {
+      "name": "3",
+      "quantity": 53,
+      "serialNumber": "53",
+      "id": 10,
+      "createdAt": "2024-07-31T20:17:23.863Z",
+      "updatedAt": "2024-07-31T20:17:23.863Z",
+      "isDeleted": false
+    },
+    {
+      "name": "535",
+      "quantity": 533,
+      "serialNumber": "353",
+      "id": 11,
+      "createdAt": "2024-07-31T20:17:27.903Z",
+      "updatedAt": "2024-07-31T20:17:27.903Z",
+      "isDeleted": false
+    },
+    {
+      "name": "gfdasg",
+      "quantity": 3535,
+      "serialNumber": "5325",
+      "id": 12,
+      "createdAt": "2024-07-31T20:17:31.412Z",
+      "updatedAt": "2024-07-31T20:17:31.412Z",
+      "isDeleted": false
+    },
+    {
+      "name": "5325",
+      "quantity": 325432,
+      "serialNumber": "532532",
+      "id": 13,
+      "createdAt": "2024-07-31T20:17:36.262Z",
+      "updatedAt": "2024-07-31T20:17:36.262Z",
+      "isDeleted": false
     }
   ]
 }

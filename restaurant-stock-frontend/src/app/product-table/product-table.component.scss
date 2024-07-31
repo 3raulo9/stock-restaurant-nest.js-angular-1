@@ -1,8 +1,14 @@
+.scrollable-container {
+  max-height: 240px; // Adjusted for exactly 5 rows, adjust based on your actual row height
+  overflow-y: auto; // Enables vertical scrolling when content exceeds 240px
+  margin: 20px 0;
+}
+
 .flex-row-container {
   display: flex;
-  justify-content: flex-end; // Aligns children to the right of the container
-  align-items: center; // Centers items vertically
-  margin: 20px; // Adds margin around the container
+  justify-content: flex-end;
+  align-items: center;
+  margin: 20px;
 }
 
 .components-container {
@@ -11,15 +17,15 @@
 }
 
 .mat-form-field {
-  width: 300px; // Sets a fixed width for the search field
+  width: 300px;
 }
 
 .add-product-btn {
-  margin-left: 10px; // Adds some space between the search input and the button
+  margin-left: 10px;
   margin-bottom: 20px;
-  padding: 28px 25px; // Significantly increases padding for a larger button appearance
-  font-size: 1.25rem; // Larger font size for the button text
-  border-radius: 20px; // Optional: Adds a slight border-radius for aesthetic purposes
+  padding: 28px 25px;
+  font-size: 1.25rem;
+  border-radius: 20px;
 }
 
 .products-table {
@@ -70,12 +76,12 @@ mat-icon {
   .flex-row-container {
     flex-direction: column;
     align-items: center;
-    justify-content: center; // Center items vertically and horizontally on small screens
+    justify-content: center;
   }
   .add-product-btn {
     width: 100%;
-    padding: 15px 30px; // Consistent padding with the larger screens
-    font-size: 1.25rem; // Consistent font size with the larger screens
+    padding: 15px 30px;
+    font-size: 1.25rem;
     margin-top: 10px;
   }
 }

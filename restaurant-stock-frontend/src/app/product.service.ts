@@ -8,7 +8,7 @@ import { Product } from './product.model';
   providedIn: 'root'
 })
 export class ProductService {
-  private apiUrl = 'http://localhost:3000/products';
+  private apiUrl = 'https://stock-restaurant-nest-js-angular-1-1.onrender.com/products';
 
   constructor(private http: HttpClient) {}
 

@@ -269,6 +269,15 @@
       "createdAt": "2024-07-31T18:45:41.657Z",
       "updatedAt": "2024-07-31T18:45:41.657Z",
       "isDeleted": true
+    },
+    {
+      "name": "32",
+      "quantity": 3,
+      "serialNumber": "3",
+      "id": 31,
+      "createdAt": "2024-07-31T19:41:41.184Z",
+      "updatedAt": "2024-07-31T19:41:41.184Z",
+      "isDeleted": true
     }
   ]
 }

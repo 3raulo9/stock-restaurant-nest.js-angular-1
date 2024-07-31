@@ -1,17 +1,20 @@
+.flex-row-container {
+  display: flex;
+  justify-content: flex-end; // Aligns children to the right of the container
+  align-items: center; // Centers items vertically
+  margin: 20px; // Adds margin around the container
+}
+
 .search-container {
   display: flex;
-  justify-content: right;
-  margin: 20px;
+}
 
-  .mat-form-field {
-    width: 100%;
-    max-width: 300px; // Limiting width for better visual structure
-  }
+.mat-form-field {
+  width: 300px; // Sets a fixed width for the search field
 }
 
 .add-product-btn {
-  float: right; // Aligns the button to the right
-  margin: 10px;
+  margin-left: 10px; // Adds some space between the search input and the button
 }
 
 .products-table {
@@ -39,10 +42,10 @@
 }
 
 .no-products {
-  text-align: center; // Centering no products message
+  text-align: center;
   padding: 20px;
   font-style: italic;
-  color: #666; // Styling the text to make it less prominent
+  color: #666;
 }
 
 .mat-icon-button {
@@ -59,11 +62,13 @@ mat-icon {
 }
 
 @media (max-width: 600px) {
-  .search-container {
+  .flex-row-container {
     flex-direction: column;
     align-items: center;
+    justify-content: center; // Center items vertically and horizontally on small screens
   }
   .add-product-btn {
-    width: 100%; // Full width for smaller screens
+    width: 100%;
+    margin-top: 10px;
   }
 }

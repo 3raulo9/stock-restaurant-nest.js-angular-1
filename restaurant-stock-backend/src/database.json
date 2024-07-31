@@ -1,0 +1,22 @@
+{
+  "products": [
+    {
+      "name": "3",
+      "quantity": 3,
+      "serialNumber": "3",
+      "id": 1,
+      "createdAt": "2024-07-30T21:51:54.274Z",
+      "updatedAt": "2024-07-30T21:51:54.274Z",
+      "isDeleted": true
+    },
+    {
+      "name": "2t",
+      "quantity": 2452,
+      "serialNumber": "254",
+      "id": 2,
+      "createdAt": "2024-07-30T22:23:38.022Z",
+      "updatedAt": "2024-07-30T22:23:38.022Z",
+      "isDeleted": true
+    }
+  ]
+}

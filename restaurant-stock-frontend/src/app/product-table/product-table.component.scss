@@ -5,8 +5,9 @@
   margin: 20px; // Adds margin around the container
 }
 
-.search-container {
+.components-container {
   display: flex;
+  padding-left: 30px;
 }
 
 .mat-form-field {
@@ -15,6 +16,10 @@
 
 .add-product-btn {
   margin-left: 10px; // Adds some space between the search input and the button
+  margin-bottom: 20px;
+  padding: 28px 25px; // Significantly increases padding for a larger button appearance
+  font-size: 1.25rem; // Larger font size for the button text
+  border-radius: 20px; // Optional: Adds a slight border-radius for aesthetic purposes
 }
 
 .products-table {
@@ -69,6 +74,8 @@ mat-icon {
   }
   .add-product-btn {
     width: 100%;
+    padding: 15px 30px; // Consistent padding with the larger screens
+    font-size: 1.25rem; // Consistent font size with the larger screens
     margin-top: 10px;
   }
 }

@@ -1,13 +1,19 @@
 <div class="flex-row-container">
-  <div class="search-container">
+
+  <div class="components-container">
+
+    <button mat-raised-button color="primary" (click)="openDialog()" class="add-product-btn">
+      Add Product
+    </button>
+  </div>
+
+  <div class="components-container">
     <mat-form-field>
       <input matInput (keyup)="applyFilter($event)" placeholder="Search">
     </mat-form-field>
   </div>
 
-  <button mat-raised-button color="primary" (click)="openDialog()" class="add-product-btn">
-    Add Product
-  </button>
+
 </div>
 
 

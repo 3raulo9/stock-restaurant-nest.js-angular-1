@@ -6,7 +6,7 @@
   padding: 20px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background: linear-gradient(to bottom, #f0f0f0 0%, #ffffff 100%);
-  min-height: 85vh; // Ensures the container takes at least the height of the viewport
+  min-height: 90vh; // Ensures the container takes at least the height of the viewport
   animation: fadeIn 1s ease-out;
 }
 
@@ -19,11 +19,11 @@ main {
   align-self: center;
   background-color: #fff;
   padding: 20px;
-  border-radius: 50px;
+  border-radius: 70px;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   flex: 1; // Important: This ensures that the main content area expands to take available space, pushing the footer downwards
   overflow: hidden;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 
 }
 

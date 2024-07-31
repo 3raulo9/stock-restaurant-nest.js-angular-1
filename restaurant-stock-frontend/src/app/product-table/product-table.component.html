@@ -39,7 +39,7 @@
     </ng-container>
 
     <!-- Actions Column -->
-    <ng-container *ngIf="dataSource && dataSource.data && dataSource.data.length > 0" matColumnDef="actions">
+    <ng-container matColumnDef="actions">
       <th mat-header-cell *matHeaderCellDef>Actions</th>
       <td mat-cell *matCellDef="let product">
         <button mat-icon-button color="primary" (click)="openDialog(product)">

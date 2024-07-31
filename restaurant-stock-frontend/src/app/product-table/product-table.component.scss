@@ -1,6 +1,6 @@
 .scrollable-container {
-  max-height: 240px; // Adjusted for exactly 5 rows, adjust based on your actual row height
-  overflow-y: auto; // Enables vertical scrolling when content exceeds 240px
+  max-height: 240px; // Adjust to fit the height of 5 rows
+  overflow-y: auto; // Enables vertical scrolling when content exceeds the set max-height
   margin: 20px 0;
 }
 

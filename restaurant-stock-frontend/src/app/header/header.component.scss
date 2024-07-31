@@ -1,0 +1,42 @@
+.app-header {
+  background-image: linear-gradient(to right, #006f9acc, #f0f0f075);
+  color: white;
+  padding: 10px 30px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  font-size: 24px;
+  border-radius: 35px;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+  display: flex;
+  align-items: center;
+}
+
+.app-header i {
+  margin-right: 20px;
+  font-size: 36px;
+}
+
+.app-header h1 {
+  margin: 0;
+  flex-grow: 1;
+  font-weight: 500;
+}
+
+.app-header .rsm-text {
+  font-family: 'Playwrite BE VLG', 'Playwrite CL', sans-serif;
+  font-weight: 400;
+}
+
+.app-header .icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 10px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.app-header .icon-container i {
+  font-size: 36px;
+}

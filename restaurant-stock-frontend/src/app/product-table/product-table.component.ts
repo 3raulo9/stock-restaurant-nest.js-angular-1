@@ -68,11 +68,15 @@ export class ProductTableComponent implements OnInit {
   }
 
   deleteProduct(id: number): void {
-    this.productService.deleteProduct(id).subscribe(() => {
-      this.fetchProducts();
-      this.snackBar.open('Product deleted successfully', 'Close', { duration: 3000 });
-    }, error => {
-      this.snackBar.open('Failed to delete product', 'Close', { duration: 3000 });
+    this.productService.deleteProduct(id).subscribe({
+      next: () => {
+        this.fetchProducts();
+        this.snackBar.open('Product deleted successfully', 'Close', { duration: 3000 });
+      },
+      error: () => {
+        this.snackBar.open('Failed to delete product', 'Close', { duration: 3000 });
+      }
     });
   }
+
 }

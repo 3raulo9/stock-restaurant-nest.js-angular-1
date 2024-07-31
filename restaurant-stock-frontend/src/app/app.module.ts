@@ -18,12 +18,16 @@ import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { AppComponent } from './app.component';
 import { ProductTableComponent } from './product-table/product-table.component';
 import { ProductDialogComponent } from './product-dialog/product-dialog.component';
+import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ProductTableComponent,
-    ProductDialogComponent
+    ProductDialogComponent,
+    HeaderComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,

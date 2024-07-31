@@ -38,6 +38,7 @@ export class ProductService {
 
   private handleError(error: HttpErrorResponse) {
     console.error('An error occurred:', error.error.message);
-    return throwError('Something bad happened; please try again later.');
+    return throwError(() => new Error('Something bad happened; please try again later.'));
   }
+
 }

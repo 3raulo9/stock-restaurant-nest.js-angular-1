@@ -1,0 +1,35 @@
+.footer {
+    color: #767676;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 16px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+
+}
+
+.footer-text {
+    margin: 0;
+}
+
+.social-links {
+    display: flex;
+}
+
+.link {
+    color: #767676;
+    text-decoration: none;
+    margin-left: 15px;
+    transition: color 0.3s;
+}
+
+.link:hover {
+    color: #3498db;
+}

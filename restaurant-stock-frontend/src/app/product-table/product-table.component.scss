@@ -1,0 +1,69 @@
+.search-container {
+  display: flex;
+  justify-content: right;
+  margin: 20px;
+
+  .mat-form-field {
+    width: 100%;
+    max-width: 300px; // Limiting width for better visual structure
+  }
+}
+
+.add-product-btn {
+  float: right; // Aligns the button to the right
+  margin: 10px;
+}
+
+.products-table {
+  width: 100%;
+  margin-top: 10px;
+
+  th, td {
+    padding: 8px;
+    text-align: left;
+  }
+
+  th.mat-header-cell {
+    &:last-child {
+      text-align: right;
+    }
+  }
+
+  td.mat-cell {
+    &:last-child {
+      text-align: right;
+      display: flex;
+      justify-content: flex-end;
+    }
+  }
+}
+
+.no-products {
+  text-align: center; // Centering no products message
+  padding: 20px;
+  font-style: italic;
+  color: #666; // Styling the text to make it less prominent
+}
+
+.mat-icon-button {
+  margin: 0 5px;
+}
+
+tr.mat-row:hover {
+  background-color: #f4f4f8;
+  cursor: pointer;
+}
+
+mat-icon {
+  vertical-align: middle;
+}
+
+@media (max-width: 600px) {
+  .search-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .add-product-btn {
+    width: 100%; // Full width for smaller screens
+  }
+}

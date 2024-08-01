@@ -16,6 +16,7 @@ export class ProductDialogComponent implements OnInit {
     private fb: FormBuilder
   ) {
     this.productForm = this.fb.group({
+      id: [data?.id || null],  // Include id in the form
       name: [data?.name || '', Validators.required],
       quantity: [data?.quantity || '', [Validators.required, Validators.min(1)]],
       serialNumber: [data?.serialNumber || '', Validators.required]
@@ -26,5 +27,11 @@ export class ProductDialogComponent implements OnInit {
 
   onCancel(): void {
     this.dialogRef.close();
+  }
+
+  onSave(): void {
+    if (this.productForm.valid) {
+      this.dialogRef.close(this.productForm.value);
+    }
   }
 }

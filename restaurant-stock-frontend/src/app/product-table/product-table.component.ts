@@ -78,5 +78,4 @@ export class ProductTableComponent implements OnInit {
       }
     });
   }
-
 }
